@@ -724,7 +724,7 @@ elif menu == "📊 4. Executive BI Dashboard":
             values="count",
             hole=.3,
             title="Feedback Source Distribution",
-            color_discrete_sequence=px.colors.sequential.Indigo
+            color_discrete_sequence=px.colors.sequential.Viridis
         )
         fig_src.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', font_color='#f8fafc')
         st.plotly_chart(fig_src, use_container_width=True)
